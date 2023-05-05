@@ -1,6 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+import Dialog from './components/ui/Dialog.vue'
 </script>
 
 <template>
@@ -17,6 +18,7 @@ import HelloWorld from './components/HelloWorld.vue'
     </div>
   </header>
 
+  <Dialog />
   <RouterView />
 </template>
 
